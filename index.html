@@ -12,7 +12,7 @@
 <script>
 //if you are using latest version of chrome browser I recommend to use:
 function sendToQuickPrinterChrome(){
-    var text = "<IMAGE>file://logo-receipt.png<BR><big>Big title<br><cut>";
+    var text = "<IMAGE>https://brandslogos.com/wp-content/uploads/images/large/bca-bank-central-asia-logo-black-and-white.png<BR><big>Big title<br><cut>";
     var textEncoded = encodeURI(text);
     window.location.href="intent://"+textEncoded+"#Intent;scheme=quickprinter;package=pe.diegoveloper.printerserverapp;end;";
     
